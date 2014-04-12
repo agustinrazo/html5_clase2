@@ -1,0 +1,15 @@
+header{
+	text-align:center;
+}
+#menu ul li {
+	list-style: none;
+	text-align: center;
+	border: 1px solid purple;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+#caja-izq {
+	text-align:center;
+}

@@ -1,0 +1,23 @@
+#menu ul li {
+	display: inline-block;
+	width: 20%;
+	border:none;
+}
+#menu{
+	padding: 30px;
+	background-color: #333333;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+}
+#caja-der {
+	display: inline-block;
+	width: 32%;
+}
+#caja-izq {
+	display: inline-block;
+	width: 42%;
+	vertical-align: top;
+}
