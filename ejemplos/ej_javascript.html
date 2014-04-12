@@ -1,0 +1,25 @@
+<!DOCTYPE  HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>JavaScript</title>
+		<script>
+			document.write("<h1>Hola Mundo</h1>");
+			document.write("HOLA"+2+5);
+			
+			function suma(a,b){
+				var resultado=a+b;
+				alert("Resultado "+resultado);
+			}
+			
+			var operacion=function(unaFuncion){
+				unaFuncion(3,3);
+			};
+			
+			operacion(suma);
+		</script>
+	</head>
+	<body>
+		<button onclick="suma(1,2)">Suma</button>
+	</body>
+</html>
